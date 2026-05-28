@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+</head>
+  <div class="navbar">
+
+    <div class="logo">
+      NETFLIX
+    </div>
+
+    <div class="nav-right">
+
+      <input
+        type="text"
+        class="search"
+        id="searchInput"
+        placeholder="Search movies..."
+      >
+
+      <div class="profile">
+        V
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>Stranger Things</h1>
+
+      <p>
+        Experience thrilling adventures, mystery,
+        horror and supernatural drama in this
+        Netflix inspired web application.
+      </p>
+
+      <div class="hero-buttons">
+
+        <button class="btn play">
+          ▶ Play
+        </button>
+
+        <button class="btn info">
+          More Info
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MOVIES -->
+
+  <div class="section">
+
+    <h2>Trending Now</h2>
+
+    <div class="movie-row" id="movieRow">
+
+    </div>
+
+  </div>
+
+  <!-- MODAL -->
+
+  <div class="modal" id="modal">
+
+    <button class="close" id="closeBtn">
+      ✕
+    </button>
+
+    <div class="modal-box">
+
+      <img id="modalImage">
+
+      <div class="modal-content">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDesc"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    © 2026 Netflix Clone | Created with HTML CSS JS
+
+  </footer>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
